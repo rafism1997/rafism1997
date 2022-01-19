@@ -1,4 +1,4 @@
-### Hi there 👋
+# Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 I am a graduate in Electrical and Electronics Engineering from GEC Barton Hill. 
 Currently working as a R & D Engineer at UST Global,Trivandrum.
