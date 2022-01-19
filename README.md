@@ -2,6 +2,8 @@
 
 I AM A ROBOTICS AND DEEP LEARNING ENTHUSIAST 🤖
 
+![](https://github.com/rafism1997/rafism1997/blob/main/ai_bot.gif)
+
 >
 >Graduated in Electrical and Electronics Engineering from GEC Barton Hill. 
 >
