@@ -25,9 +25,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-The skills and tools I use:
 
-<img align="left" alt="Visual Studio Code" width="26px" style="padding-left:10px;" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
-<img align="left" alt="C++" width="28px" style="padding-left:10px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png" />
-<img align="left" alt="Python" width="30px" style="padding-left:10px;" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/python/python.png" />
-<img align="left" alt="Git" width="27px" style="padding-left:10px;" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" />
+### 🔧 Tools and Technologies 
+
+![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Python-informational?style=?style=plastic&logo=python&logoColor=white&color=blueviolet)
+![](https://img.shields.io/badge/Code-C++-informational?style=?style=plastic&logo=cplusplus&logoColor=white&color=blueviolet)
+![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/CAD-A360-informational?style=flat&logo=autodesk&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Editor-VScode-informational?style=flat&logo=visualstudiocode&logoColor=white&color=2bbc8a)
