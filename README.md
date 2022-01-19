@@ -1,7 +1,7 @@
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 I am a graduate in Electrical and Electronics Engineering from GEC Barton Hill. 
-Currently working as a R & D Engineer at UST Global,Trivandrum.
+Currently working as a Robotics Software Engineer at UST Global,Trivandrum.
 
 You can find me on [LinkedIn](https://www.linkedin.com/in/s-m-rafi-911442130/).
 <!--
