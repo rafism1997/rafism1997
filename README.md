@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+I am a graduate in Electrical and Electronics Engineering from GEC Barton Hill.Currently working as a R & D Engineer at UST Global,Trivandrum.
+You can find me on [LinkedIn](https://www.linkedin.com/in/s-m-rafi-911442130/).
 <!--
 **rafism1997/rafism1997** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
