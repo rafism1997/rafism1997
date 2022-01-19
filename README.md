@@ -8,7 +8,10 @@
 >
 >👯 I’m looking to collaborate on Autonomous Mobile Robotics based Projects.
 >
->📫 How to reach me:  [LinkedIn Profile](https://www.linkedin.com/in/s-m-rafi-911442130/).
+>📫 How to reach me:   [![LinkedIn][2.2]][3]
+
+[2.2]: https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/linkedin-3-16.png
+[3]: https://www.linkedin.com/in/s-m-rafi-911442130
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=rafism1997&theme=github_dark&show_icons=true&custom_title=Stats)
 <!--
