@@ -1,9 +1,7 @@
-# Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
-
-I AM A ROBOTICS AND DEEP LEARNING ENTHUSIAST 🤖
 
 ![](https://github.com/rafism1997/rafism1997/blob/main/robotforintro.gif)
 
+### I AM A ROBOTICS AND DEEP LEARNING ENTHUSIAST 🤖
 >
 >Graduated in Electrical and Electronics Engineering from GEC Barton Hill. 
 >
