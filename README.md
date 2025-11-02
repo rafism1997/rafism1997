@@ -1,6 +1,6 @@
 <!-- Welcome GIF -->
 <div align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40" height="40"/> 
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40" height="40"/>
   <h2>👋 Hello! Click here for a warm greeting!</h2>
   <p><em>Welcome to my tech journey - where MLOps meets innovation!</em></p>
 </div>
@@ -83,6 +83,7 @@ class AIMLOpsExpert:
 ## 🔬 TECHNICAL EXPERTISE
 
 ### 🤖 **MLOPs & MODEL DEPLOYMENT**
+
 ```yaml
 Core Competencies:
   - Azure MLOps & Azure AI Services
@@ -95,6 +96,7 @@ Core Competencies:
 ```
 
 ### 🧠 **VISION AI & COMPUTER VISION**
+
 ```yaml
 Specializations:
   - Object Detection (YOLO, RCNN)
@@ -107,6 +109,7 @@ Specializations:
 ```
 
 ### 🌟 **GenAI & NLP APPLICATIONS**
+
 ```yaml
 Innovations:
   - GPT-3 Integration with Unreal Engine
@@ -131,26 +134,34 @@ Innovations:
 ## 🌟 IMPACTFUL PROJECTS
 
 ### 🔍 **Vision AI Product Development & Implementation**
+
 **Role:** Implementation Specialist for Enterprise Vision AI Solutions
+
 - 🎯 **Impact:** Deployed Vision AI models across Pharma, Retail, and Manufacturing
 - ⚡ **Achievement:** 97% model accuracy with reinforcement learning optimization
 - 🔧 **Technologies:** On-premise deployment, edge servers, real-time dashboards
 - 📊 **Deliverables:** Intuitive UI dashboards for event visualization and quality control
 
 ### 🛒 **POS Device Troubleshooting using Vision AI**
+
 **Innovation:** AI-powered diagnostic system for point-of-sale operations
+
 - 🎯 **Problem Solved:** Reduced average resolution time for POS operators
 - 🔧 **Technologies:** Computer Vision, Real-time Analytics, Edge Computing
 - 📈 **Outcome:** Streamlined retail operations and improved customer experience
 
 ### 🤖 **Custom Metahuman NLP Conversational Assistant**
+
 **Innovation:** 3D reconstructed interactive AI assistant using Unreal Engine
+
 - 🎯 **Breakthrough:** Integrated OpenAI GPT-3 with realistic 3D Metahuman
 - 🔧 **Technologies:** Unreal Engine, OpenAI API, 3D Reconstruction, NLP
 - 📈 **Impact:** Enhanced customer support through visual AI interactions
 
 ### 🌿 **Tea Leaf Disease Detection using YOLO**
+
 **Research:** Multi-class classification for agricultural AI applications
+
 - 🎯 **Achievement:** 97% detection accuracy (Precision: 95%, Recall: 96%, F1: 95.5%)
 - 🔧 **Technologies:** YOLOv9, PyTorch, Custom Dataset, Data Preprocessing
 - 📊 **Impact:** Reliable disease detection for agricultural optimization
@@ -172,30 +183,11 @@ Innovations:
 
 ---
 
-## 📈 GITHUB ANALYTICS
-
-<div align="center">
-  
-[![Stats](https://github-readme-stats.vercel.app/api?username=rafism1997&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&custom_title=GitHub+Statistics&bg_color=0d1117&title_color=00f7f7&text_color=c9d1d9&icon_color=00f7f7)](https://github.com/rafism1997)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rafism1997&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7f7&text_color=c9d1d9)](https://github.com/rafism1997)
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rafism1997&theme=tokyonight&hide_border=true&background=0d1117&ring=00f7f7&fire=00f7f7&currStreakLabel=00f7f7)](https://github.com/rafism1997)
-
-</div>
-
----
-
 ## 🤝 LET'S COLLABORATE!
 
 ### 💬 **Open to Collaborate On:**
 
-🔹 **MLOps Pipeline Development**  
-🔹 **Vision AI Product Solutions**  
-🔹 **GenAI Application Development**  
-🔹 **Cloud ML Model Deployment**  
-🔹 **Real-time AI Inference Systems**  
-🔹 **Open Source ML Tools**  
+🔹 **MLOps Pipeline Development**  🔹 **Vision AI Product Solutions**  🔹 **GenAI Application Development**  🔹 **Cloud ML Model Deployment**  🔹 **Real-time AI Inference Systems**  🔹 **Open Source ML Tools**  
 
 ### 📬 **Get In Touch**
 
