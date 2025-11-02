@@ -14,7 +14,7 @@ class AIMLOpsExpert:
     def __init__(self):
         self.name = "Rafi Shaik Mohammed"
         self.role = "Technical Ops Lead & Vision AI Solutions Architect @ UST Global"
-        self.location = "Aliso Viejo, California 🇺🇸"
+        self.location = "Aliso Viejo, California"
         self.education = "B.Tech in Electrical & Electronics | GEC Barton Hill"
         self.experience = "5+ years in AI/ML and Production Systems"
         self.mission = "Bridging AI Innovation with Real-World Impact"
