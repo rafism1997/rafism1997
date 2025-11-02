@@ -1,191 +1,186 @@
-<!-- Visual: Interactive 3D AI Architect Animation—powered by Three.js -->
+<!-- Welcome GIF -->
 <div align="center">
-  <h3>🎨 Interactive 3D AI Architect Visualization</h3>
-  <p><em>Powered by Three.js - WebGL 3D Animation</em></p>
-  
-```html
-<!-- Three.js Integration Example -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<div id="ai-architect-canvas"></div>
-<script>
-  // Three.js scene setup for AI Architect visualization
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-  const renderer = new THREE.WebGLRenderer({ alpha: true });
-  
-  // Create animated AI neural network visualization
-  // Add geometric shapes representing AI architecture
-  // Implement rotation and interactive elements
-</script>
-```
-
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40" height="40"/> 
+  <h2>👋 Hello! Click here for a warm greeting!</h2>
+  <p><em>Welcome to my tech journey - where MLOps meets innovation!</em></p>
 </div>
 
 ---
 
-# Rafi Shaik Mohammed · Technical Ops Lead and Aspiring AI Solutions Architect
+# Rafi Shaik Mohammed · Technical Ops Lead & Vision AI Solutions Architect
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00F7F7&center=true&vCenter=true&width=600&lines=Technical+Ops+Lead+%26+AI+Solutions+Architect;Deep+Learning+%26+AI+Enthusiast;Autonomous+Systems+Developer;Building+the+Future+with+Code+%26+Robots)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00F7F7&center=true&vCenter=true&width=700&lines=MLOps+%26+GenAI+Solutions+Architect;Vision+AI+Product+Developer;Cloud+MLOps+Specialist;Model+Deployment+%26+Optimization+Expert)](https://git.io/typing-svg)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-m-rafi-911442130)
-[![Profile Views](https://komarev.com/ghpvc/?username=rafism1997&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/rafism1997)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-m-rafi-911442130) [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rafism1997@gmail.com) [![Profile Views](https://komarev.com/ghpvc/?username=rafism1997&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/rafism1997)
 
 ---
 
-## 🚀 ABOUT ME | ENGINEERING THE FUTURE
+## 🚀 ABOUT ME | ENGINEERING AI SOLUTIONS AT SCALE
 
 ```python
-class RoboticsEngineer:
+class AIMLOpsExpert:
     def __init__(self):
-        self.name = "S M Rafi"
-        self.role = "Technical Ops Lead and AI Solutions Architect @ UST Global, Aliso Viejo, California"
-        self.education = "B.Tech in Electrical & Electronics | GEC Barton Hill"
+        self.name = "Rafi Shaik Mohammed"
+        self.role = "Technical Ops Lead & Vision AI Solutions Architect @ UST Global"
         self.location = "Aliso Viejo, California 🇺🇸"
-        self.mission = "Bridging AI, Robotics, and Real-World Impact"
+        self.education = "B.Tech in Electrical & Electronics | GEC Barton Hill"
+        self.experience = "5+ years in AI/ML and Production Systems"
+        self.mission = "Bridging AI Innovation with Real-World Impact"
         
     def current_focus(self):
         return [
-            "🤖 Autonomous Mobile Robotics",
-            "🧠 Deep Learning & Computer Vision",
-            "⚡ Real-time Perception Systems",
-            "🔬 Robotics Software Architecture",
-            "🌐 Multi-Agent Systems & Swarm Intelligence",
-            "🎨 Interactive 3D Visualizations with Three.js"
+            "🤖 MLOps & Model Deployment Pipelines",
+            "🧠 Vision AI Product Solutions",
+            "⚡ Real-time AI Inference & Optimization", 
+            "☁️ Cloud MLOps (Azure/AWS)",
+            "🔬 GenAI Applications & NLP",
+            "📊 On-Premise AI Model Deployment"
         ]
     
+    def previous_expertise(self):
+        return "Former Robotics Developer - AMR, Drone Swarms, ROS Systems"
+        
     def seeking_collaboration(self):
-        return "Autonomous Mobile Robotics | AI-Driven Systems | Open Source Innovation"
+        return "MLOps Pipelines | Vision AI Solutions | GenAI Applications | AI Product Development"
 ```
 
 ---
 
 ## 💡 VISION & MISSION
 
-> **Building intelligent machines that perceive, learn, and adapt to create a safer, more efficient world.**
+> **Building scalable AI solutions that transform industries through intelligent automation and vision-powered insights.**
 
-🎯 **Current Mission:** Developing cutting-edge autonomous systems that bridge the gap between theoretical AI and practical robotics applications.
+🎯 **Current Mission:** Leading Vision AI product development and MLOps implementation for enterprise clients, specializing in on-premise and cloud deployments with 97%+ model accuracy.
 
 🔮 **Future Goals:**
-- Pioneer next-generation human-robot collaboration systems
-- Contribute to open-source robotics frameworks at scale
-- Advance real-time AI inference on edge devices
-- Build autonomous systems for social good and sustainability
+- • Pioneer next-generation MLOps frameworks for enterprise AI
+- • Advance real-time AI inference on edge devices
+- • Build GenAI applications that solve real business challenges
+- • Contribute to open-source ML deployment tools
 
 ---
 
-## 🏆 ACHIEVEMENTS & MILESTONES
+## 🏆 KEY ACHIEVEMENTS & RECOGNITION
 
 <div align="center">
 
-| 🎖️ Milestone | 📊 Impact |
+| 🎖️ Achievement | 📊 Impact |
 |:---:|:---:|
-| **Robotics Projects Deployed** | Production-Level Systems |
-| **Deep Learning Models** | Computer Vision & Perception |
-| **Open Source Contributions** | Collaborative Innovation |
-| **Engineering Excellence** | UST Global Recognition |
+| **2 Patents** | US Design Patent + Indian Patent |
+| **Top Performer Award** | UST Global Aspiring Leaders Program |
+| **Vision AI Deployments** | 97% Model Accuracy in Production |
+| **MLOps Implementations** | Enterprise-Scale Solutions |
 
 </div>
+
+**Patents & Recognition:**
+- 🏅 **US Design Patent US D1,004,400 S** - Live hinge formed from rigid material (Nov 2023)
+- 🏅 **Indian Patent 354819-001** - Innovative material removal pattern design (Feb 2022)
+- 🏆 **Top Performer** - UST Global Aspiring Leaders Program
 
 ---
 
 ## 🔬 TECHNICAL EXPERTISE
 
-### 🤖 **ROBOTICS & AUTONOMOUS SYSTEMS**
-
+### 🤖 **MLOPs & MODEL DEPLOYMENT**
 ```yaml
 Core Competencies:
-  - Robot Operating System (ROS/ROS2)
-  - Path Planning & Navigation (A*, Dijkstra, RRT)
-  - SLAM (Simultaneous Localization and Mapping)
-  - Sensor Fusion (LiDAR, Camera, IMU, GPS)
-  - Motion Control & Kinematics
-  - Hardware Integration & Real-time Systems
+  - Azure MLOps & Azure AI Services
+  - AWS SageMaker & EC2 Deployments  
+  - Docker Containerization & CI/CD
+  - Model Optimization & TensorRT
+  - Real-time Inference Systems
+  - On-Premise Edge Deployment
+  - Performance Monitoring & Analytics
 ```
 
-### 🧠 **AI & DEEP LEARNING**
-
+### 🧠 **VISION AI & COMPUTER VISION**
 ```yaml
 Specializations:
-  - Computer Vision (Object Detection, Segmentation, Tracking)
-  - Neural Networks (CNN, RNN, Transformers)
-  - Reinforcement Learning for Robotics
-  - Edge AI & Model Optimization (TensorRT, ONNX)
-  - GenAI Applications in Robotics
-  - MLOps & Model Deployment
+  - Object Detection (YOLO, RCNN)
+  - Image Classification & Segmentation
+  - Real-time Video Analytics
+  - Quality Assurance Systems
+  - POS Device Troubleshooting AI
+  - Manufacturing Vision Solutions
+  - 97% Production Model Accuracy
 ```
 
-### 💻 **PROGRAMMING & TOOLS**
+### 🌟 **GenAI & NLP APPLICATIONS**
+```yaml
+Innovations:
+  - GPT-3 Integration with Unreal Engine
+  - Custom Metahuman Conversational AI
+  - NLP-Powered Interactive Assistants
+  - Domain-Specific AI Applications
+  - Advanced Prompt Engineering
+```
 
-![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-Expert-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![ROS](https://img.shields.io/badge/ROS-Advanced-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-Expert-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-Expert-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-Power_User-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-Advanced-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Expert-F05032?style=for-the-badge&logo=git&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-Advanced-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-Proficient-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+### 💻 **PROGRAMMING & CLOUD TECHNOLOGIES**
+
+![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-Expert-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-Expert-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-MLOps-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-SageMaker-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-Advanced-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-Advanced-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-Power_User-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 **Development Environment:**
-- • **OS:** Linux (Ubuntu) | **Shell:** Bash/Zsh
-- • **Editor:** VSCode, Vim | **CAD:** Autodesk Fusion 360
-- • **Version Control:** Git, GitHub Actions
-- • **Simulation:** Gazebo, Isaac Sim, CARLA
+- • **Cloud Platforms:** Azure MLOps, AWS SageMaker, EC2
+- • **Frameworks:** PyTorch, TensorFlow, OpenCV, YOLO
+- • **DevOps:** Docker, CI/CD, Git, GitHub Actions
+- • **Hardware:** NVIDIA GPUs, TensorRT, Edge Devices
 
 ---
 
-## 🌐 3D VISUALS WITH THREE.JS
+## 🌟 IMPACTFUL PROJECTS
 
-### **Interactive 3D Robotics & AI Demonstrations**
+### 🔍 **Vision AI Product Development & Implementation**
+**Role:** Implementation Specialist for Enterprise Vision AI Solutions
+- 🎯 **Impact:** Deployed Vision AI models across Pharma, Retail, and Manufacturing
+- ⚡ **Achievement:** 97% model accuracy with reinforcement learning optimization
+- 🔧 **Technologies:** On-premise deployment, edge servers, real-time dashboards
+- 📊 **Deliverables:** Intuitive UI dashboards for event visualization and quality control
 
-As a **Technical Ops Lead and AI Solutions Architect**, I leverage **Three.js** to create stunning, interactive 3D visualizations that bring robotics and AI concepts to life:
+### 🛒 **POS Device Troubleshooting using Vision AI**
+**Innovation:** AI-powered diagnostic system for point-of-sale operations
+- 🎯 **Problem Solved:** Reduced average resolution time for POS operators
+- 🔧 **Technologies:** Computer Vision, Real-time Analytics, Edge Computing
+- 📈 **Outcome:** Streamlined retail operations and improved customer experience
 
-```yaml
-Three.js Expertise:
-  - 3D Robot Model Visualization & Animation
-  - Real-time Sensor Data Visualization (LiDAR, Camera Feeds)
-  - Interactive AI Demo Environments
-  - WebGL-based Simulation Interfaces
-  - Portfolio Graphics & Technical Presentations
-  - 3D Path Planning Visualization
-  - Robotics Dashboard Components
-```
+### 🤖 **Custom Metahuman NLP Conversational Assistant**
+**Innovation:** 3D reconstructed interactive AI assistant using Unreal Engine
+- 🎯 **Breakthrough:** Integrated OpenAI GPT-3 with realistic 3D Metahuman
+- 🔧 **Technologies:** Unreal Engine, OpenAI API, 3D Reconstruction, NLP
+- 📈 **Impact:** Enhanced customer support through visual AI interactions
 
-**Innovation Highlights:**
-- 🎯 **AI Architecture Visualization**: Created interactive 3D dashboards that visualize neural network architectures, data flow, and real-time inference pipelines for technical operations
-- 🤖 **Robotics Simulations**: Developed web-based 3D simulators for robot kinematics, showcasing autonomous navigation and perception systems
-- 📊 **Technical Operations Dashboards**: Built immersive 3D monitoring tools for AI model performance, system health, and deployment metrics
-- 🎨 **Portfolio Innovations**: Designed interactive 3D portfolio pieces demonstrating robotics projects, featuring animated robot models with real-time sensor overlays
-- 🔬 **Research Demos**: Created compelling 3D visualizations for technical presentations, making complex AI and robotics concepts accessible and engaging
-
-**Technical Stack:**
-- Three.js, React Three Fiber, WebGL
-- GLTF/GLB model integration
-- Real-time data streaming and visualization
-- Responsive 3D UI/UX design
-
-By combining Three.js with cutting-edge AI and robotics technologies, I create immersive experiences that bridge the gap between complex technical operations and intuitive visual understanding—showcasing innovations in autonomous systems, deep learning architectures, and intelligent automation.
+### 🌿 **Tea Leaf Disease Detection using YOLO**
+**Research:** Multi-class classification for agricultural AI applications
+- 🎯 **Achievement:** 97% detection accuracy (Precision: 95%, Recall: 96%, F1: 95.5%)
+- 🔧 **Technologies:** YOLOv9, PyTorch, Custom Dataset, Data Preprocessing
+- 📊 **Impact:** Reliable disease detection for agricultural optimization
 
 ---
 
-## 🌟 AREAS OF INNOVATION
+## 🤖 ROBOTICS BACKGROUND (PRIOR FOCUS)
 
-| ### 🚗 **Autonomous Vehicles** <br/> • Perception pipelines <br/> • Sensor fusion architectures <br/> • Path planning algorithms <br/> • Real-time decision making | ### 🏭 **Industrial Robotics** <br/> • Automated inspection systems <br/> • Collaborative robots (Cobots) <br/> • Predictive maintenance AI <br/> • Digital twin integration |
-|---|---|
-| ### 🤝 **Human-Robot Interaction** <br/> • Natural language interfaces <br/> • Gesture recognition systems <br/> • Safe collaboration frameworks <br/> • Adaptive behavior modeling | ### 🌍 **Robotics for Good** <br/> • Accessibility solutions <br/> • Environmental monitoring <br/> • Search & rescue systems <br/> • Healthcare robotics |
+*As a former Robotics Developer, I bring unique hardware-software integration expertise to my current AI/ML work:*
+
+**Previous Robotics Experience:**
+- 🚗 **Autonomous Mobile Robots (AMRs)** - Warehouse management systems
+- 🚁 **Drone Swarm Robotics** - PX4 and multi-agent coordination
+- 🗺️ **SLAM & Navigation** - RTAB-Map, RRT path planning algorithms
+- 🤝 **ROS/ROS2 Systems** - Robot Operating System architecture
+- ☁️ **Simulation Platforms** - AWS RoboMaker, Gazebo, Isaac Sim
+
+*This robotics foundation enhances my current MLOps work by providing deep understanding of real-time systems, edge computing, and hardware constraints.*
 
 ---
 
 ## 📈 GITHUB ANALYTICS
 
 <div align="center">
+  
+[![Stats](https://github-readme-stats.vercel.app/api?username=rafism1997&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&custom_title=GitHub+Statistics&bg_color=0d1117&title_color=00f7f7&text_color=c9d1d9&icon_color=00f7f7)](https://github.com/rafism1997)
 
-![Stats](https://github-readme-stats.vercel.app/api?username=rafism1997&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&custom_title=GitHub+Statistics&bg_color=0d1117&title_color=00f7f7&text_color=c9d1d9&icon_color=00f7f7)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rafism1997&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7f7&text_color=c9d1d9)](https://github.com/rafism1997)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rafism1997&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7f7&text_color=c9d1d9)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rafism1997&theme=tokyonight&hide_border=true&background=0d1117&ring=00f7f7&fire=00f7f7&currStreakLabel=00f7f7)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rafism1997&theme=tokyonight&hide_border=true&background=0d1117&ring=00f7f7&fire=00f7f7&currStreakLabel=00f7f7)](https://github.com/rafism1997)
 
 </div>
 
@@ -195,26 +190,21 @@ By combining Three.js with cutting-edge AI and robotics technologies, I create i
 
 ### 💬 **Open to Collaborate On:**
 
-🔹 **Autonomous Mobile Robotics Projects**  
-🔹 **Deep Learning & Computer Vision Applications**  
-🔹 **Open Source Robotics Software**  
-🔹 **AI-Powered Edge Computing Solutions**  
-🔹 **Research in Multi-Agent Systems**
+🔹 **MLOps Pipeline Development**  
+🔹 **Vision AI Product Solutions**  
+🔹 **GenAI Application Development**  
+🔹 **Cloud ML Model Deployment**  
+🔹 **Real-time AI Inference Systems**  
+🔹 **Open Source ML Tools**  
 
 ### 📬 **Get In Touch**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-m-rafi-911442130)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rafism1997@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafism1997)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-m-rafi-911442130) [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rafism1997@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafism1997)
 
 ---
 
-### 🌌 "The future belongs to those who build intelligent machines with purpose and passion."
-
-<div align="center">
+### 🌌 "Innovation happens at the intersection of AI, MLOps, and real-world impact."
 
 ![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
 
-**⚡ Powered by Innovation | Built with Passion | Driven by Impact ⚡**
-
-</div>
+**⚡ Powered by MLOps | Built with AI | Driven by Results ⚡**
