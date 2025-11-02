@@ -4,7 +4,7 @@
 
 # 🤖 RAFI S M | ROBOTICS & AI ARCHITECT
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00F7F7&center=true&vCenter=true&width=600&lines=Robotics+Software+Engineer;Deep+Learning+%26+AI+Enthusiast;Autonomous+Systems+Developer;Building+the+Future+with+Code+%26+Robots)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00F7F7&center=true&vCenter=true&width=600&lines=Technical+Ops+Lead+%26+AI+Solutions+Architect;Deep+Learning+%26+AI+Enthusiast;Autonomous+Systems+Developer;Building+the+Future+with+Code+%26+Robots)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-m-rafi-911442130)
 [![Profile Views](https://komarev.com/ghpvc/?username=rafism1997&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/rafism1997)
@@ -19,9 +19,9 @@
 class RoboticsEngineer:
     def __init__(self):
         self.name = "S M Rafi"
-        self.role = "Robotics Software Engineer @ UST Global"
+        self.role = "Technical Ops Lead and AI Solutions Architect @ UST Global, Aliso Viejo, California"
         self.education = "B.Tech in Electrical & Electronics | GEC Barton Hill"
-        self.location = "Trivandrum, India 🇮🇳"
+        self.location = "Aliso Viejo, California 🇺🇸"
         self.mission = "Bridging AI, Robotics, and Real-World Impact"
         
     def current_focus(self):
@@ -30,7 +30,8 @@ class RoboticsEngineer:
             "🧠 Deep Learning & Computer Vision",
             "⚡ Real-time Perception Systems",
             "🔬 Robotics Software Architecture",
-            "🌐 Multi-Agent Systems & Swarm Intelligence"
+            "🌐 Multi-Agent Systems & Swarm Intelligence",
+            "🎨 Interactive 3D Visualizations with Three.js"
         ]
     
     def seeking_collaboration(self):
@@ -71,6 +72,7 @@ class RoboticsEngineer:
 ## 🔬 TECHNICAL EXPERTISE
 
 ### 🤖 **ROBOTICS & AUTONOMOUS SYSTEMS**
+
 ```yaml
 Core Competencies:
   - Robot Operating System (ROS/ROS2)
@@ -82,6 +84,7 @@ Core Competencies:
 ```
 
 ### 🧠 **AI & DEEP LEARNING**
+
 ```yaml
 Specializations:
   - Computer Vision (Object Detection, Segmentation, Tracking)
@@ -94,8 +97,6 @@ Specializations:
 
 ### 💻 **PROGRAMMING & TOOLS**
 
-<div align="center">
-
 ![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-Expert-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![ROS](https://img.shields.io/badge/ROS-Advanced-22314E?style=for-the-badge&logo=ros&logoColor=white)
@@ -107,23 +108,58 @@ Specializations:
 ![OpenCV](https://img.shields.io/badge/OpenCV-Advanced-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-Proficient-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
-</div>
-
 **Development Environment:**
-- **OS:** Linux (Ubuntu) | **Shell:** Bash/Zsh
-- **Editor:** VSCode, Vim | **CAD:** Autodesk Fusion 360
-- **Version Control:** Git, GitHub Actions
-- **Simulation:** Gazebo, Isaac Sim, CARLA
+- • **OS:** Linux (Ubuntu) | **Shell:** Bash/Zsh
+- • **Editor:** VSCode, Vim | **CAD:** Autodesk Fusion 360
+- • **Version Control:** Git, GitHub Actions
+- • **Simulation:** Gazebo, Isaac Sim, CARLA
+
+---
+
+## 🌐 3D VISUALS WITH THREE.JS
+
+### **Interactive 3D Robotics & AI Demonstrations**
+
+As a **Technical Ops Lead and AI Solutions Architect**, I leverage **Three.js** to create stunning, interactive 3D visualizations that bring robotics and AI concepts to life:
+
+```yaml
+Three.js Expertise:
+  - 3D Robot Model Visualization & Animation
+  - Real-time Sensor Data Visualization (LiDAR, Camera Feeds)
+  - Interactive AI Demo Environments
+  - WebGL-based Simulation Interfaces
+  - Portfolio Graphics & Technical Presentations
+  - 3D Path Planning Visualization
+  - Robotics Dashboard Components
+```
+
+**Innovation Highlights:**
+- 🎯 **AI Architecture Visualization**: Created interactive 3D dashboards that visualize neural network architectures, data flow, and real-time inference pipelines for technical operations
+- 🤖 **Robotics Simulations**: Developed web-based 3D simulators for robot kinematics, showcasing autonomous navigation and perception systems
+- 📊 **Technical Operations Dashboards**: Built immersive 3D monitoring tools for AI model performance, system health, and deployment metrics
+- 🎨 **Portfolio Innovations**: Designed interactive 3D portfolio pieces demonstrating robotics projects, featuring animated robot models with real-time sensor overlays
+- 🔬 **Research Demos**: Created compelling 3D visualizations for technical presentations, making complex AI and robotics concepts accessible and engaging
+
+**Technical Stack:**
+- Three.js, React Three Fiber, WebGL
+- GLTF/GLB model integration
+- Real-time data streaming and visualization
+- Responsive 3D UI/UX design
+
+By combining Three.js with cutting-edge AI and robotics technologies, I create immersive experiences that bridge the gap between complex technical operations and intuitive visual understanding—showcasing innovations in autonomous systems, deep learning architectures, and intelligent automation.
 
 ---
 
 ## 🌟 AREAS OF INNOVATION
+
+<div align="center">
 
 <table>
 <tr>
 <td width="50%">
 
 ### 🚗 **Autonomous Vehicles**
+
 - Perception pipelines
 - Sensor fusion architectures
 - Path planning algorithms
@@ -133,6 +169,7 @@ Specializations:
 <td width="50%">
 
 ### 🏭 **Industrial Robotics**
+
 - Automated inspection systems
 - Collaborative robots (Cobots)
 - Predictive maintenance AI
@@ -144,6 +181,7 @@ Specializations:
 <td width="50%">
 
 ### 🤝 **Human-Robot Interaction**
+
 - Natural language interfaces
 - Gesture recognition systems
 - Safe collaboration frameworks
@@ -153,6 +191,7 @@ Specializations:
 <td width="50%">
 
 ### 🌍 **Robotics for Good**
+
 - Accessibility solutions
 - Environmental monitoring
 - Search & rescue systems
@@ -161,6 +200,8 @@ Specializations:
 </td>
 </tr>
 </table>
+
+</div>
 
 ---
 
