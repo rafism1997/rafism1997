@@ -1,15 +1,34 @@
+<!-- Visual: Interactive 3D AI Architect Animation—powered by Three.js -->
 <div align="center">
+  <h3>🎨 Interactive 3D AI Architect Visualization</h3>
+  <p><em>Powered by Three.js - WebGL 3D Animation</em></p>
+  
+```html
+<!-- Three.js Integration Example -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<div id="ai-architect-canvas"></div>
+<script>
+  // Three.js scene setup for AI Architect visualization
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+  const renderer = new THREE.WebGLRenderer({ alpha: true });
+  
+  // Create animated AI neural network visualization
+  // Add geometric shapes representing AI architecture
+  // Implement rotation and interactive elements
+</script>
+```
 
-![](https://github.com/rafism1997/rafism1997/blob/main/robotforintro.gif)
+</div>
 
-# 🤖 RAFI S M | ROBOTICS & AI ARCHITECT
+---
+
+# Rafi Shaik Mohammed · Technical Ops Lead and Aspiring AI Solutions Architect
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00F7F7&center=true&vCenter=true&width=600&lines=Technical+Ops+Lead+%26+AI+Solutions+Architect;Deep+Learning+%26+AI+Enthusiast;Autonomous+Systems+Developer;Building+the+Future+with+Code+%26+Robots)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-m-rafi-911442130)
 [![Profile Views](https://komarev.com/ghpvc/?username=rafism1997&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/rafism1997)
-
-</div>
 
 ---
 
@@ -152,56 +171,9 @@ By combining Three.js with cutting-edge AI and robotics technologies, I create i
 
 ## 🌟 AREAS OF INNOVATION
 
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### 🚗 **Autonomous Vehicles**
-
-- Perception pipelines
-- Sensor fusion architectures
-- Path planning algorithms
-- Real-time decision making
-
-</td>
-<td width="50%">
-
-### 🏭 **Industrial Robotics**
-
-- Automated inspection systems
-- Collaborative robots (Cobots)
-- Predictive maintenance AI
-- Digital twin integration
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🤝 **Human-Robot Interaction**
-
-- Natural language interfaces
-- Gesture recognition systems
-- Safe collaboration frameworks
-- Adaptive behavior modeling
-
-</td>
-<td width="50%">
-
-### 🌍 **Robotics for Good**
-
-- Accessibility solutions
-- Environmental monitoring
-- Search & rescue systems
-- Healthcare robotics
-
-</td>
-</tr>
-</table>
-
-</div>
+| ### 🚗 **Autonomous Vehicles** <br/> • Perception pipelines <br/> • Sensor fusion architectures <br/> • Path planning algorithms <br/> • Real-time decision making | ### 🏭 **Industrial Robotics** <br/> • Automated inspection systems <br/> • Collaborative robots (Cobots) <br/> • Predictive maintenance AI <br/> • Digital twin integration |
+|---|---|
+| ### 🤝 **Human-Robot Interaction** <br/> • Natural language interfaces <br/> • Gesture recognition systems <br/> • Safe collaboration frameworks <br/> • Adaptive behavior modeling | ### 🌍 **Robotics for Good** <br/> • Accessibility solutions <br/> • Environmental monitoring <br/> • Search & rescue systems <br/> • Healthcare robotics |
 
 ---
 
@@ -221,8 +193,6 @@ By combining Three.js with cutting-edge AI and robotics technologies, I create i
 
 ## 🤝 LET'S COLLABORATE!
 
-<div align="center">
-
 ### 💬 **Open to Collaborate On:**
 
 🔹 **Autonomous Mobile Robotics Projects**  
@@ -233,17 +203,15 @@ By combining Three.js with cutting-edge AI and robotics technologies, I create i
 
 ### 📬 **Get In Touch**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-m-rafi-911442130)
-[![Email](https://img.shields.io/badge/Email-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rafism1997@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow_Me-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafism1997)
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-m-rafi-911442130)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rafism1997@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafism1997)
 
 ---
 
-<div align="center">
+### 🌌 "The future belongs to those who build intelligent machines with purpose and passion."
 
-### 🌌 *"The future belongs to those who build intelligent machines with purpose and passion."*
+<div align="center">
 
 ![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
 
