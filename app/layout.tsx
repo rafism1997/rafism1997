@@ -10,7 +10,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Rafi Shaik Mohammed | AI Solutions Architect",
   description:
-    "Vision AI Solutions Architect and Product Manager specializing in Vision AI, MLOps, and enterprise AI deployments at UST.",
+    "Vision AI Solutions Architect and Technical Ops Lead specializing in Vision AI, MLOps, and enterprise AI deployments at UST.",
   generator: "v0.app",
   icons: {
     icon: [

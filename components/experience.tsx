@@ -4,7 +4,7 @@ import { Briefcase, Calendar } from "lucide-react"
 
 const experiences = [
   {
-    title: "Vision AI Solutions Architect and Product Manager",
+    title: "Vision AI Solutions Architect and Technical Ops Lead",
     company: "UST",
     location: "Alpharetta, GA",
     period: "Feb 2024 – Present",
@@ -19,7 +19,7 @@ const experiences = [
   {
     title: "Software Developer III",
     company: "UST",
-    location: "Alpharetta, GA",
+    location: "Aliso Viejo, CA",
     period: "Oct 2023 – Feb 2024",
     highlights: [
       "Designed and ran MLOps pipelines for computer vision models using Azure",
