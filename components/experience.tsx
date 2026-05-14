@@ -4,9 +4,9 @@ import { Briefcase, Calendar } from "lucide-react"
 
 const experiences = [
   {
-    title: "Technical Ops Lead and AI Architect",
-    company: "UST Global",
-    location: "Aliso Viejo, CA",
+    title: "Vision AI Solutions Architect and Product Manager",
+    company: "UST",
+    location: "Alpharetta, GA",
     period: "Feb 2024 – Present",
     highlights: [
       "Leading Vision AI Product Solutions for enterprise clients across Pharma, Retail, and Manufacturing",
@@ -18,8 +18,8 @@ const experiences = [
   },
   {
     title: "Software Developer III",
-    company: "UST Global",
-    location: "Aliso Viejo, CA",
+    company: "UST",
+    location: "Alpharetta, GA",
     period: "Oct 2023 – Feb 2024",
     highlights: [
       "Designed and ran MLOps pipelines for computer vision models using Azure",
@@ -30,7 +30,7 @@ const experiences = [
   },
   {
     title: "Software Developer II",
-    company: "UST Global",
+    company: "UST",
     location: "Trivandrum, India",
     period: "Jan 2021 – Oct 2023",
     highlights: [

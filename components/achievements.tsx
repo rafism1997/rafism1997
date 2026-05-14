@@ -62,7 +62,7 @@ export function Achievements() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  {"Recognized as a top performer in UST Global's worldwide Aspiring Leaders Program"}
+                  {"Recognized as a top performer in UST's worldwide Aspiring Leaders Program"}
                 </p>
               </CardContent>
             </Card>

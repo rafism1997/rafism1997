@@ -39,7 +39,7 @@ export function Hero() {
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto text-balance leading-relaxed">
-              Technical Ops Lead at UST Global | Building production-grade AI systems for enterprise and advancing
+              Vision AI Solutions Architect and Product Manager at UST | Building production-grade AI systems for enterprise and advancing
               cloud/edge deployments
             </p>
 
