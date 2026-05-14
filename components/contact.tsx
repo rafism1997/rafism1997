@@ -19,7 +19,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Mission Viejo, CA 92691",
+    value: "Alpharetta, GA 30005",
     href: null,
   },
   {
