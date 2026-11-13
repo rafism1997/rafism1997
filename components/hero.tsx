@@ -1,90 +1,126 @@
+import type { CSSProperties } from "react"
+import Image from "next/image"
+import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Mail, Sparkles } from "lucide-react"
-import { HolographicAvatar } from "./holographic-avatar"
+import { metrics, profile } from "@/lib/site-data"
+
+const stagger = (step: number) => ({ "--i": step }) as CSSProperties
+
+const readout = [
+  { label: "Role", value: `${profile.roles[0]}, ${profile.company}` },
+  { label: "Base", value: profile.location },
+  { label: "Focus", value: profile.focus.join(" · ") },
+]
 
 export function Hero() {
   return (
-    <section id="about" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Background Grid */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
+    <section id="top" aria-labelledby="hero-title" className="relative isolate overflow-hidden pt-28 lg:pt-36">
+      <div aria-hidden="true" className="grid-backdrop absolute inset-0 -z-10" />
+      <div
+        aria-hidden="true"
+        className="absolute -left-24 top-16 -z-10 size-[30rem] rounded-full bg-primary/10 blur-3xl"
+      />
 
-      {/* Gradient Orbs */}
-      <div className="absolute top-20 right-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-20 left-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-3xl animate-pulse delay-1000" />
+      <div className="mx-auto grid max-w-6xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-16">
+        <div className="flex flex-col gap-7">
+          <p className="rise eyebrow flex items-center gap-2.5 text-muted-foreground" style={stagger(0)}>
+            <span aria-hidden="true" className="relative flex size-2">
+              <span className="absolute inline-flex size-full rounded-full bg-signal opacity-70 motion-safe:animate-ping" />
+              <span className="relative inline-flex size-2 rounded-full bg-signal" />
+            </span>
+            {profile.status}
+          </p>
 
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-16">
-          {/* Holographic Avatar */}
-          <div className="order-1 lg:order-2">
-            <HolographicAvatar />
+          <div className="flex flex-col gap-4">
+            <p className="rise eyebrow text-primary" style={stagger(1)}>
+              {profile.roles.join(" / ")}
+            </p>
+            <h1
+              id="hero-title"
+              className="rise font-display text-[length:clamp(2.4rem,12vw,3rem)] font-semibold leading-[0.98] sm:text-6xl lg:text-7xl"
+              style={stagger(2)}
+            >
+              <span className="block">Rafi Shaik</span>
+              <span className="block">Mohammed</span>
+            </h1>
           </div>
 
-          {/* Content */}
-          <div className="max-w-2xl text-center lg:text-left space-y-8 order-2 lg:order-1">
-            <Badge className="bg-primary/10 text-primary border-primary/20 hover:bg-primary/20">
-              <Sparkles className="w-3 h-3 mr-2" />
-              Open to Work • AI Solutions Architect
-            </Badge>
+          <p className="rise max-w-xl text-xl leading-snug text-balance sm:text-2xl sm:leading-snug" style={stagger(3)}>
+            {profile.headline}
+          </p>
 
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
-              Driving Innovation in{" "}
-              <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-                Vision AI
-              </span>{" "}
-              &{" "}
-              <span className="bg-gradient-to-r from-secondary via-accent to-primary bg-clip-text text-transparent">
-                Automation
-              </span>
-            </h1>
+          <p className="rise max-w-xl leading-relaxed text-muted-foreground text-pretty" style={stagger(4)}>
+            {profile.intro}
+          </p>
 
-            <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto text-balance leading-relaxed">
-              Vision AI Solutions Architect and Technical Ops Lead at UST | Building production-grade AI systems for enterprise and advancing
-              cloud/edge deployments
-            </p>
-
-            <div className="flex items-center justify-center gap-2 flex-wrap">
-              <Badge variant="secondary" className="bg-primary/5 border-primary/20 text-primary">
-                Pharma Industry
-              </Badge>
-              <Badge variant="secondary" className="bg-accent/5 border-accent/20 text-accent">
-                Retail Industry
-              </Badge>
-            </div>
-
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button size="lg" asChild className="group">
-                <a href="#contact">
-                  <Mail className="w-4 h-4 mr-2" />
-                  {"Let's Connect"}
-                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                </a>
-              </Button>
-              <Button size="lg" variant="outline" asChild>
-                <a href="#experience">View Experience</a>
-              </Button>
-            </div>
-
-            <div className="pt-8 grid grid-cols-2 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
-              <div className="space-y-1">
-                <div className="text-3xl font-bold text-primary">5+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
-              </div>
-              <div className="space-y-1">
-                <div className="text-3xl font-bold text-accent">2</div>
-                <div className="text-sm text-muted-foreground">Patents Granted</div>
-              </div>
-              <div className="space-y-1">
-                <div className="text-3xl font-bold text-primary">10+</div>
-                <div className="text-sm text-muted-foreground">Major Projects</div>
-              </div>
-            </div>
+          <div className="rise flex flex-wrap items-center gap-3" style={stagger(5)}>
+            <Button asChild size="lg">
+              <a href="#contact">
+                Start a conversation
+                <ArrowRight aria-hidden="true" />
+              </a>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+              <a href="#systems">View systems</a>
+            </Button>
           </div>
         </div>
+
+        <figure className="rise hud-corners mx-auto w-full max-w-sm lg:order-first lg:max-w-none" style={stagger(2)}>
+          <div className="relative aspect-[4/5] overflow-hidden bg-card">
+            <Image
+              src="/images/rafi-shaik-mohammed.webp"
+              alt="Rafi Shaik Mohammed outdoors in a navy quarter-zip, glancing to the side with a slight smile"
+              width={880}
+              height={1100}
+              preload
+              sizes="(min-width: 1024px) 430px, (min-width: 640px) 384px, 92vw"
+              className="size-full object-cover saturate-[0.9] contrast-[1.04]"
+            />
+            <div aria-hidden="true" className="scanline" />
+            <div
+              aria-hidden="true"
+              className="absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-background via-background/70 to-transparent"
+            />
+            <p
+              aria-hidden="true"
+              className="eyebrow absolute left-3 top-3 border border-border bg-background/70 px-2 py-1 backdrop-blur-sm"
+            >
+              Fig. 01
+            </p>
+            <figcaption className="absolute inset-x-0 bottom-0 p-4 sm:p-5">
+              <dl className="flex flex-col gap-1.5 font-mono text-xs">
+                {readout.map((row) => (
+                  <div key={row.label} className="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-3">
+                    <dt className="uppercase tracking-[0.16em] text-primary">{row.label}</dt>
+                    <dd>{row.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </figcaption>
+          </div>
+        </figure>
       </div>
 
-      {/* Bottom fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
+      <div className="mx-auto mt-16 max-w-6xl px-5 sm:px-8 lg:mt-24">
+        <dl
+          className="rise grid grid-cols-2 gap-px border-y border-border bg-border lg:grid-cols-4"
+          style={stagger(6)}
+        >
+          {metrics.map((metric) => (
+            <div
+              key={metric.label}
+              className="flex flex-col-reverse justify-end gap-3 bg-background px-4 py-6 sm:px-6 sm:py-8"
+            >
+              <dt className="text-sm leading-relaxed text-muted-foreground text-pretty">{metric.label}</dt>
+              <dd className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+                <span className="font-display text-3xl font-semibold sm:text-4xl">{metric.value}</span>
+                <span className="font-mono text-xs uppercase tracking-[0.16em] text-primary">{metric.unit}</span>
+              </dd>
+            </div>
+          ))}
+        </dl>
+      </div>
     </section>
   )
 }

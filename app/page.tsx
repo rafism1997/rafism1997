@@ -1,35 +1,33 @@
+import { Contact } from "@/components/contact"
+import { Credentials } from "@/components/credentials"
+import { Experience } from "@/components/experience"
+import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
-import { Experience } from "@/components/experience"
-import { Projects } from "@/components/projects"
-import { Skills } from "@/components/skills"
-import { Education } from "@/components/education"
-import { Achievements } from "@/components/achievements"
-import { Contact } from "@/components/contact"
-import { IntroAnimation } from "@/components/intro-animation"
+import { Profile } from "@/components/profile"
+import { Stack } from "@/components/stack"
+import { Systems } from "@/components/systems"
 
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <IntroAnimation />
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:bg-primary focus:px-4 focus:py-2 focus:font-mono focus:text-sm focus:text-primary-foreground"
+      >
+        Skip to content
+      </a>
       <Header />
-      <main>
+      <main id="main">
         <Hero />
+        <Profile />
+        <Systems />
         <Experience />
-        <Projects />
-        <Skills />
-        <Education />
-        <Achievements />
+        <Stack />
+        <Credentials />
         <Contact />
       </main>
-      <footer className="border-t border-border/50 py-12">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Rafi Shaik Mohammed. All rights reserved.
-          </p>
-          <p className="text-muted-foreground text-xs mt-2">Built with Next.js and deployed on Vercel</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

@@ -1,17 +1,49 @@
 import type React from "react"
-import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
+import type { Metadata, Viewport } from "next"
+import { Archivo, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+const archivo = Archivo({
+  subsets: ["latin"],
+  axes: ["wdth"],
+  variable: "--font-archivo",
+  display: "swap",
+})
+
+const geistMono = Geist_Mono({
+  subsets: ["latin"],
+  variable: "--font-geist-mono",
+  display: "swap",
+})
+
+const title = "Rafi Shaik Mohammed | AI Solutions Architect & Forward Deployed Engineer"
+const description =
+  "AI Solutions Architect and Forward Deployed Engineer with 5+ years shipping production AI: agentic workflows, RAG pipelines, AI-driven SDLC automation and MLOps on AWS, Databricks and Azure, plus edge computer vision and robotics."
 
 export const metadata: Metadata = {
-  title: "Rafi Shaik Mohammed | AI Solutions Architect",
-  description:
-    "Vision AI Solutions Architect and Technical Ops Lead specializing in Vision AI, MLOps, and enterprise AI deployments at UST.",
+  title,
+  description,
   generator: "v0.app",
+  keywords: [
+    "AI Solutions Architect",
+    "Forward Deployed Engineer",
+    "Agentic AI",
+    "RAG",
+    "MLOps",
+    "Amazon Bedrock",
+    "AgentCore",
+    "Databricks",
+    "LangGraph",
+    "Vision AI",
+  ],
+  authors: [{ name: "Rafi Shaik Mohammed", url: "https://www.linkedin.com/in/s-m-rafi-911442130/" }],
+  openGraph: {
+    title,
+    description,
+    type: "website",
+    locale: "en_US",
+  },
   icons: {
     icon: [
       {
@@ -31,14 +63,21 @@ export const metadata: Metadata = {
   },
 }
 
+export const viewport: Viewport = {
+  themeColor: "#060b10",
+  colorScheme: "dark",
+  width: "device-width",
+  initialScale: 1,
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`font-sans antialiased`}>
+    <html lang="en" className={`dark ${archivo.variable} ${geistMono.variable}`} data-scroll-behavior="smooth">
+      <body className="font-sans antialiased">
         {children}
         <Analytics />
       </body>
