@@ -1,121 +1,103 @@
+import { ArrowUpRight, Github, Languages, Linkedin, Mail, MapPin, Phone, type LucideIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Mail, Phone, MapPin, Linkedin, Globe } from "lucide-react"
+import { Section } from "@/components/section"
+import { profile } from "@/lib/site-data"
+import { cn } from "@/lib/utils"
 
-const contactInfo = [
-  {
-    icon: Phone,
-    label: "Phone",
-    value: "+1-(949)-750-5403",
-    href: "tel:+19497505403",
-  },
-  {
-    icon: Mail,
-    label: "Email",
-    value: "rafism1997@gmail.com",
-    href: "mailto:rafism1997@gmail.com",
-  },
-  {
-    icon: MapPin,
-    label: "Location",
-    value: "Alpharetta, GA 30005",
-    href: null,
-  },
-  {
-    icon: Linkedin,
-    label: "LinkedIn",
-    value: "Connect on LinkedIn",
-    href: "https://www.linkedin.com/in/s-m-rafi-911442130/",
-  },
+type Channel = {
+  icon: LucideIcon
+  label: string
+  value: string
+  href?: string
+  external?: boolean
+}
+
+const channels: Channel[] = [
+  { icon: Mail, label: "Email", value: profile.email, href: `mailto:${profile.email}` },
+  { icon: Phone, label: "Phone", value: profile.phone.label, href: profile.phone.href },
+  { icon: Linkedin, label: "LinkedIn", value: profile.linkedin.label, href: profile.linkedin.href, external: true },
+  { icon: Github, label: "GitHub", value: profile.github.label, href: profile.github.href, external: true },
+  { icon: MapPin, label: "Location", value: profile.location },
+  { icon: Languages, label: "Languages", value: profile.languages.join(" · ") },
 ]
 
-const languages = ["English", "Malayalam", "Hindi"]
+const rowClass = "grid grid-cols-[1.25rem_minmax(0,1fr)_1rem] items-center gap-4 py-4"
+
+function ChannelText({ label, value }: Pick<Channel, "label" | "value">) {
+  return (
+    <span className="flex flex-col gap-1 sm:flex-row sm:items-center sm:gap-6">
+      <span className="eyebrow shrink-0 text-muted-foreground sm:w-24">{label}</span>
+      <span className="font-medium wrap-anywhere">{value}</span>
+    </span>
+  )
+}
 
 export function Contact() {
   return (
-    <section id="contact" className="py-24 relative bg-muted/30">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto space-y-8">
-          <div className="space-y-4 text-center">
-            <Badge variant="outline" className="border-primary/50 text-primary">
-              <Mail className="w-3 h-3 mr-2" />
-              Contact
-            </Badge>
-            <h2 className="text-4xl font-bold tracking-tight">{"Let's Connect"}</h2>
-            <p className="text-muted-foreground text-lg">{"Open to exciting opportunities in AI and ML engineering"}</p>
-          </div>
-
-          <div className="grid sm:grid-cols-2 gap-6">
-            {contactInfo.map((info, index) => {
-              const Icon = info.icon
-              return (
-                <Card key={index} className="border-border/50 bg-card/50 backdrop-blur-sm">
-                  <CardContent className="p-6">
-                    {info.href ? (
-                      <a
-                        href={info.href}
-                        target={info.href.startsWith("http") ? "_blank" : undefined}
-                        rel={info.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                        className="flex items-start gap-4 group"
-                      >
-                        <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                          <Icon className="w-5 h-5 text-background" />
-                        </div>
-                        <div className="flex-1">
-                          <div className="text-sm text-muted-foreground">{info.label}</div>
-                          <div className="font-medium text-foreground group-hover:text-primary transition-colors">
-                            {info.value}
-                          </div>
-                        </div>
-                      </a>
-                    ) : (
-                      <div className="flex items-start gap-4">
-                        <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center flex-shrink-0">
-                          <Icon className="w-5 h-5 text-background" />
-                        </div>
-                        <div className="flex-1">
-                          <div className="text-sm text-muted-foreground">{info.label}</div>
-                          <div className="font-medium text-foreground">{info.value}</div>
-                        </div>
-                      </div>
-                    )}
-                  </CardContent>
-                </Card>
-              )
-            })}
-          </div>
-
-          <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
-            <CardContent className="p-6">
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-accent to-primary flex items-center justify-center flex-shrink-0">
-                  <Globe className="w-5 h-5 text-background" />
-                </div>
-                <div className="flex-1">
-                  <div className="text-sm text-muted-foreground mb-3">Languages</div>
-                  <div className="flex flex-wrap gap-2">
-                    {languages.map((language) => (
-                      <Badge key={language} variant="secondary">
-                        {language}
-                      </Badge>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          <div className="flex justify-center">
-            <Button size="lg" asChild className="group">
-              <a href="mailto:rafism1997@gmail.com">
-                <Mail className="w-4 h-4 mr-2" />
-                Send Email
+    <Section
+      id="contact"
+      index="06"
+      label="Contact"
+      title="Let's build the next system."
+      description="Open to opportunities in AI and ML engineering. Email and LinkedIn are the fastest ways to reach me."
+    >
+      <div className="grid gap-12 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-16">
+        <div className="reveal flex flex-col items-start gap-7">
+          <p className="text-xl leading-relaxed text-pretty">
+            Have an agentic workflow, a RAG platform or a vision system that needs to reach production? I would like to
+            hear about it.
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Button asChild size="lg">
+              <a href={`mailto:${profile.email}`}>
+                <Mail aria-hidden="true" />
+                Send an email
+              </a>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+              <a href={profile.linkedin.href} target="_blank" rel="noopener noreferrer">
+                <Linkedin aria-hidden="true" />
+                Connect on LinkedIn
+                <span className="sr-only">(opens in a new tab)</span>
               </a>
             </Button>
           </div>
         </div>
+
+        <ul className="reveal flex flex-col border-t border-border">
+          {channels.map((channel) => {
+            const Icon = channel.icon
+            return (
+              <li key={channel.label} className="border-b border-border">
+                {channel.href ? (
+                  <a
+                    href={channel.href}
+                    target={channel.external ? "_blank" : undefined}
+                    rel={channel.external ? "noopener noreferrer" : undefined}
+                    className={cn(rowClass, "group transition-colors hover:text-primary")}
+                  >
+                    <Icon
+                      aria-hidden="true"
+                      className="size-4 text-muted-foreground transition-colors group-hover:text-primary"
+                    />
+                    <ChannelText label={channel.label} value={channel.value} />
+                    <ArrowUpRight
+                      aria-hidden="true"
+                      className="size-4 text-muted-foreground transition-[color,transform] group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-primary"
+                    />
+                    {channel.external ? <span className="sr-only">(opens in a new tab)</span> : null}
+                  </a>
+                ) : (
+                  <div className={rowClass}>
+                    <Icon aria-hidden="true" className="size-4 text-muted-foreground" />
+                    <ChannelText label={channel.label} value={channel.value} />
+                  </div>
+                )}
+              </li>
+            )
+          })}
+        </ul>
       </div>
-    </section>
+    </Section>
   )
 }
